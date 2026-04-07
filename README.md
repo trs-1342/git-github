@@ -25,6 +25,12 @@ bu projede git & github temel olarak ogrendiklerimi yukledigim repodur.
 
 - Platformdan bağımsızdır, programcı ve geliştiriciler içindir
 
+## Git İndirme
+
+- Windows: https://git-scm.com/install/windows
+- MacOS: https://git-scm.com/install/mac
+- Linux: https://git-scm.com/install/linux
+
 ### Geliştirici
 
 [site](https://hattab.vercel.app)
