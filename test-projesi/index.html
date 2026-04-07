@@ -3,12 +3,30 @@
 <head>
   <meta charset="utf-8">
   <title>test proje</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+  <style>
+    h1{
+      color:red;
+    }
+
+    p{
+      color:green;
+    }
+
+    #owner{
+      background-color: red;
+      color: black;
+      font-size: 42px;
+      font-weight: bold;
+    }
+  </style>
 </head>
   <body>
     <h1>TEST PROJESI</h1>
     <p>bu proje git ve github dersi icin ornek olarak olusturuldu.</p>
     <span id="owner"></span>
-    <script src="script.js"></script>
+    <script>
+      document.getElementById("owner").textContent += "trs-1342"; // stackoverflow
+    </script>
   </body>
 </html>
