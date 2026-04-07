@@ -63,6 +63,9 @@ projeye X özelliğini ayrı bağımsız bir dalda geliştirmeni sağlar
     
 13. `git checkout dal-adi`
     - belirtilen dal'a geçer
+    
+14. `git push origin dal-adi`
+    - yaptığınız değişikliklerin belirtilen ve istenilen dal'a aktarır
 
 
 #### MERGING (BİRLEŞTİRME)
