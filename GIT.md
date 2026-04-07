@@ -42,3 +42,31 @@ git komutları kullanımını ve açıklamalarını içerir
 10. `git checkout ID/HASH`
     - id: commit'e ait benzersir anahtar
     - geçmişteki commit versionlarına dönmeyi sağlar
+
+
+### BRANCHING AND MERGING (DALLANMA VE BİRLEŞTİRME)
+
+#### BRANCHING (DALLANMA)
+
+bir projede paralel olarak bağımsız geliştirmeye olanak tanır
+örneğin:
+projeye X özelliğini ayrı bağımsız bir dalda geliştirmeni sağlar
+
+> [!NOTE]
+> `test-projesi` adı ile örnek proje oluşturdum, içeriği 3 dosyadan 1 dosyaya birleştirmek için `one-file` adında bir dal oluşturdum
+
+11. `git branch dal-adi`
+    - yeni bir dal oluşturur
+
+12. `git branch`
+    - dalları listeler
+    
+13. `git checkout dal-adi`
+    - belirtilen dal'a geçer
+
+
+#### MERGING (BİRLEŞTİRME)
+
+bir projede paralel olarak bağımsız geliştirilen dallanmaları birleştirir
+örneğin:
+projeye X özelliğini ayrı bağımsız bir dalda geliştirilen başka bir dalla birleştirir
