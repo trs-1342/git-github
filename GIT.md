@@ -15,6 +15,7 @@ git komutları kullanımını ve açıklamalarını içerir
 
 4. `git status`
     - projenin durumunu/değişikliklerini gösterir/denetler
+    - değişiklikler denetimden geçtiğinde boş görünür
 
 5. `git add .`
     - proje içinde tüm değişikliklerini denetlemeden geçirir
@@ -25,5 +26,12 @@ git komutları kullanımını ve açıklamalarını içerir
 7. `git commit -m "mesaj"`
     - `commit`: kaydet
     - `-m`: mesaj
-    - denetimden geçenleri kaydeder ve mesaj ekler.
-
+    - denetimden geçenlerin tümünü kaydeder ve mesaj ekler.
+    
+8. `git commit -a -m "mesaj"`
+    - `commit`: kaydet
+    - `-a`: ekle
+    - `-m`: mesaj
+    - denetimden geçenlerin sadece daha önce eklenmiş olanları kaydeder ve mesaj ekler, yani yeni dosyaları eklemez.
+    
+9. 
