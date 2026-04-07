@@ -34,4 +34,9 @@ git komutları kullanımını ve açıklamalarını içerir
     - `-m`: mesaj
     - denetimden geçenlerin sadece daha önce eklenmiş olanları kaydeder ve mesaj ekler, yani yeni dosyaları eklemez.
     
-9. 
+9. `git log`
+    - tutulan commit kayıtları gösterir
+    
+10. `git checkout ID`
+    - id: commit'e ait benzersir anahtar
+    - geçmişteki commit versionlarına dönmeyi sağlar
