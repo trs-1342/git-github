@@ -6,9 +6,11 @@ git komutları kullanımını ve açıklamalarını içerir
 
 1. `git config --global user.name "ad soyad"`
     - git commitlerinde görünecek yazar kimliğinin ad değerini global olarak belirler
+    - yapılan değişikliklerin kimin tarafından yapıldığını göstermek içindir
 
 2. `git config --global user.email "email"`
     - git commitlerinde görünecek yazar kimliğinin email değerini global olarak belirler
+    - yapılan değişikliklerin kimin tarafından yapıldığını göstermek içindir
 
 3. `git init`
     - git ayar dosyalarını indirir
@@ -37,6 +39,6 @@ git komutları kullanımını ve açıklamalarını içerir
 9. `git log`
     - tutulan commit kayıtları gösterir
     
-10. `git checkout ID`
+10. `git checkout ID/HASH`
     - id: commit'e ait benzersir anahtar
     - geçmişteki commit versionlarına dönmeyi sağlar
